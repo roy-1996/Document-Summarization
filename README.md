@@ -15,6 +15,7 @@ sudo python degree_centrality.py 0.2
 sudo python degree_centrality.py 0.3
 
 
+
 sudo python text_rank.py 0.1
 
 sudo python text_rank.py 0.2
