@@ -263,7 +263,7 @@ def compare_summary():
 
 	r = Rouge()        
 	score = r.get_scores(gold_summary,generated_summary)
-	print score
+	print score		# Rouge-1 , Rouge-2 and Rouge-L summary are printed for a particular threshold
 
 
 
