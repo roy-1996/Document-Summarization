@@ -220,12 +220,13 @@ def extract_summary( deg_map ):
 
 			if ( words_in_summary > 250 ):
 				break
+				
+			temp  =  cosine_similarity[item].tolist()
 
-			for j in cosine_similarity[item]:
-
+			for j in temp:
+				
 				if ( j > high_similarity_threshold ):
 
-					temp  =  cosine_similarity[item].tolist()
 					index =  temp.index(j)
 
 					if ( visited[index] == 0 ):
