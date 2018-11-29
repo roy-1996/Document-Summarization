@@ -229,8 +229,6 @@ def power_method():
 
 
 	for i in range(1000):
-	
-		temp_vector = eigen_vector
 		eigen_vector = numpy.dot(numpy.transpose(cosine_similarity),eigen_vector)
 
 
